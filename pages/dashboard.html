@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Picnic CSS Boilerplate</title>
+    <link rel="stylesheet" href="../css/picnic.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html" class="brand">Dashboard</a>
+        <input id="menu" type="checkbox" class="show">
+        <label for="menu" class="burger pseudo button">≡</label>
+        <div class="menu">
+            <a href="#" class="pseudo button">Analytics</a>
+            <a href="#" class="pseudo button">Users</a>
+            <a href="#" class="pseudo button">Settings</a>
+            <a href="../index.html" class="pseudo button">Home</a>
+        </div>
+    </nav>
+
+    <main style="margin-top: 4rem; padding: 2rem;">
+        <div class="flex one two-700 three-1000">
+            <div class="card">
+                <header>
+                    <h3>Welcome to Dashboard</h3>
+                </header>
+                <section>
+                    <p>This is a placeholder dashboard template. You can customize this layout to fit your specific needs.</p>
+                </section>
+            </div>
+            
+            <div class="card">
+                <header>
+                    <h3>Statistics</h3>
+                </header>
+                <section>
+                    <p>Total Users: <strong>1,234</strong></p>
+                    <p>Active Sessions: <strong>56</strong></p>
+                    <p>Revenue: <strong>$12,345</strong></p>
+                </section>
+            </div>
+
+            <div class="card">
+                <header>
+                    <h3>Quick Actions</h3>
+                </header>
+                <section>
+                    <button class="button">Add User</button>
+                    <button class="button warning">View Reports</button>
+                    <button class="button error">System Settings</button>
+                </section>
+            </div>
+        </div>
+
+        <div class="flex one">
+            <div class="card">
+                <header>
+                    <h3>Recent Activity</h3>
+                </header>
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Action</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>Logged in</td>
+                                <td>2 minutes ago</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Smith</td>
+                                <td>Updated profile</td>
+                                <td>5 minutes ago</td>
+                            </tr>
+                            <tr>
+                                <td>Bob Johnson</td>
+                                <td>Made purchase</td>
+                                <td>10 minutes ago</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
